@@ -1,167 +1,246 @@
-# 📊 SALES DASHBOARD | POWER BI
+# 🏨 EXECUTIVE HOTEL PERFORMANCE DASHBOARD | POWER BI
 
-> 🚀 **Transforming Sales Data into Meaningful Business Insights!**
+> 🚀 **Transforming Hotel Booking Data into Powerful Business Insights!**
 
-Welcome to my **Sales Dashboard Project**! 📊🔥
+Welcome to my **Executive Hotel Performance Dashboard**! 🏨📊✨
 
-This project is an interactive **Business Intelligence Dashboard built using Microsoft Power BI**, designed to analyze and visualize sales and profit performance through clear, interactive, and easy-to-understand visualizations.
+This project is an interactive **Power BI dashboard** created to analyze and visualize hotel performance, bookings, revenue, customer demographics, hotel-wise performance, and geographical booking trends.
 
-Instead of going through thousands of rows of raw data 📑, this dashboard brings the most important information together in one place — making it easier to **analyze performance, identify trends, compare regions, and understand business results.**
+The dashboard transforms complex hotel data into **clear, interactive, and meaningful visual insights**, allowing users to quickly understand business performance and explore different aspects of hotel operations.
+
+Instead of manually analyzing large amounts of booking data 📑, this dashboard brings important KPIs, trends, comparisons, and filters together in one powerful interface. 💡📈
 
 ---
 
-## 🌟 About The Project
+# 🌟 Project Overview
 
-The **Sales Dashboard** provides a comprehensive visual analysis of sales performance across different business dimensions.
+The **Executive Hotel Performance Dashboard** provides a centralized view of hotel business performance.
 
 The dashboard focuses on:
 
-💰 **Total Sales**
-💵 **Total Profit**
-🌎 **Regional Sales Performance**
-🗺️ **State-wise Profit Analysis**
-👤 **Sales by Person**
-🏷️ **Product Category**
-🚚 **Shipping Mode**
-📅 **Ship Date**
+💰 **Realized Revenue**
+💵 **Total Revenue**
+🛏️ **Room Type Count**
+📅 **Total Bookings**
+📊 **Booking Status**
+📈 **Monthly Booking Trends**
+👥 **Customer Age & Gender Analysis**
+🏨 **Revenue by Hotel Name**
+🌎 **Bookings by City**
+🏷️ **Room Type Filtering**
+👤 **Customer Type Filtering**
 
-The purpose of this project is to demonstrate how **Power BI can transform business data into interactive and actionable insights.** 🚀
-
----
-
-# 📌 Dashboard at a Glance
-
-The dashboard provides two important overall performance indicators:
-
-### 💰 Total Sales
-
-**2.30M**
-
-### 💵 Total Profit
-
-**286.40K**
-
-These KPIs provide a quick overview of the overall business performance represented in the dashboard.
+The main objective is to turn hotel booking data into **actionable business intelligence** that can help understand customer behavior, booking patterns, revenue performance, and hotel-level trends.
 
 ---
 
-# 🌎 Sales by Region
+# 🎯 Key Performance Indicators
 
-One of the key visualizations in the dashboard compares **Total Sales across different regions**.
+The dashboard provides several important KPIs at the top, allowing users to understand overall hotel performance at a glance.
 
-### 📊 Regional Performance
+### 💰 Realized Revenue
 
-| 🌍 Region  | 💰 Total Sales |
-| ---------- | -------------: |
-| 🥇 West    |      **0.73M** |
-| 🥈 East    |      **0.68M** |
-| 🥉 Central |      **0.50M** |
-| 📉 South   |      **0.39M** |
+**85.78bn**
 
-The dashboard shows **West** as the highest-performing region, followed by **East, Central, and South**.
+### 🛏️ Room Type Count
 
-### 💡 Business Insight
+**105K**
 
-Regional analysis helps identify where sales are strongest and where there may be opportunities for improvement.
+### 📅 Total Bookings
 
-For example:
+**10K**
 
-🔥 West → Strongest sales performance
-📈 East → Strong second performer
-📊 Central → Moderate performance
-🎯 South → Potential area for growth
+### 💵 Total Revenue
+
+**250bn**
+
+These KPIs provide a high-level overview of the hotel's booking activity and financial performance.
 
 ---
 
-### 🎯 What This Analysis Shows
+# 📊 Booking Status Analysis
 
-Individual sales analysis can help organizations understand:
+The dashboard provides a breakdown of bookings according to their current booking status.
 
-📌 Top-performing sales representatives
-📌 Individual contribution to revenue
-📌 Performance differences
-📌 Areas requiring additional support
-📌 Opportunities for performance improvement
+The available booking statuses are:
 
----
+✅ **Confirmed**
+❌ **Cancelled**
+⏳ **Pending**
 
-# 🏷️ Product Category Analysis
+This visualization helps understand how bookings are distributed across different stages of the booking process.
 
-The dashboard provides a **Category** filter that includes:
+### 💡 Why Booking Status Matters
 
-🪑 **Furniture**
-📎 **Office Supplies**
+Booking status analysis can help hotel management understand:
 
-Users can interact with these filters to explore the dashboard based on different product categories.
+📌 How many reservations are successfully confirmed
+📌 How many bookings are cancelled
+📌 How many reservations are still pending
+📌 Potential booking losses
+📌 Overall reservation behavior
 
-### 💡 Business Value
-
-Category-based analysis can help answer questions such as:
-
-❓ Which category contributes more to sales?
-❓ Which category generates better performance?
-❓ Where should marketing efforts be focused?
-❓ Which product segment has greater potential?
+This can support better **capacity planning, revenue management, and operational decision-making.**
 
 ---
 
-# 🚚 Shipping Mode
+# 📅 Monthly Booking Analysis
 
-The dashboard also contains a **Ship Mode** filter.
+The dashboard includes a **Total Bookings by Month** visualization that allows users to understand how booking activity changes throughout the year.
 
-The displayed option includes:
+The dashboard covers the following months:
 
-🚚 **First Class**
+* 🗓️ January
+* 🗓️ February
+* 🗓️ March
+* 🗓️ April
+* 🗓️ May
+* 🗓️ June
+* 🗓️ July
+* 🗓️ August
+* 🗓️ September
+* 🗓️ October
+* 🗓️ November
+* 🗓️ December
 
-Shipping-related analysis can provide additional operational context and help businesses understand how sales data interacts with delivery methods.
+The monthly visualization provides a clear view of booking patterns throughout the year.
+
+### 🔥 Business Value
+
+Monthly booking analysis can help identify:
+
+📈 High-demand periods
+📉 Low-demand periods
+🎯 Seasonal booking patterns
+🏨 Occupancy planning opportunities
+💰 Revenue optimization opportunities
+
+Hotels can use this type of information to improve pricing strategies, promotions, staffing, and resource planning.
 
 ---
 
-# 📅 Ship Date Analysis
+# 👥 Customer Age & Gender Analysis
 
-The dashboard includes a **Ship Date** filter.
+The dashboard also analyzes **Total Bookings by Customer Age and Customer Gender**.
 
-The displayed date is:
+The visualization considers:
 
-📅 **07 January 2014**
+### 👩 Female
 
-Date-based filtering allows users to explore the dashboard according to shipment dates and provides another dimension for interactive analysis.
+### 👨 Male
+
+### 🧑 Other
+
+It also provides customer age information across a broad age range.
+
+### 💡 Why Customer Demographics Matter
+
+Understanding customer demographics can help hotels:
+
+🎯 Target the right audience
+📢 Create better marketing campaigns
+🏨 Improve customer experiences
+💰 Design suitable offers
+📊 Understand booking behavior
+
+For example, demographic insights can help identify which customer groups are most active in hotel bookings.
 
 ---
 
-# ✨ Key Dashboard Features
+# 🏨 Revenue by Hotel Name
 
-### 📊 Interactive Dashboard
+One of the important visualizations in the dashboard focuses on **Realized Revenue by Hotel Name**.
 
-All major business metrics are presented visually in a single dashboard.
+The dashboard includes hotels such as:
 
-### 💰 KPI Analysis
+🏨 **Hotel Paradise**
+🌊 **Sea View**
+🌅 **Hotel Sunrise**
+🏨 **Inn Eve**
+✨ **Hotel Delight**
+☀️ **Hotel Sunshine**
+💎 **Luxury**
+🏊 **Cool Pool**
 
-Quickly view total sales and total profit.
+The visualization allows comparison of realized revenue across different hotels.
 
-### 🌎 Regional Comparison
+### 💰 Why Hotel-Level Revenue Analysis?
 
-Compare sales performance across West, East, Central, and South.
+Hotel-wise revenue analysis can help identify:
 
-### 🗺️ State-Level Profit
+🏆 Top-performing hotels
+📉 Lower-performing properties
+💰 Revenue-generating locations
+📊 Performance differences
+🎯 Opportunities for improvement
 
-Analyze the contribution of individual states.
+This can help management focus resources on the areas that have the greatest business impact.
 
-### 👤 Salesperson Analysis
+---
 
-Compare sales generated by different individuals.
+### 🌎 Business Insight
 
-### 🏷️ Category Filter
+City-level analysis can help organizations understand:
 
-Analyze results based on Furniture and Office Supplies.
+📍 Where bookings are concentrated
+🌍 Which markets generate more demand
+🏨 Which locations may require additional attention
+📈 Potential geographical expansion opportunities
 
-### 🚚 Shipping Filter
+---
 
-Explore information using shipping mode.
+# 🎛️ Interactive Filters
 
-### 📅 Date Filter
+The dashboard provides interactive filters that allow users to explore the data from different perspectives.
 
-Filter the dashboard according to ship date.
+### 🛏️ Room Type
+
+Users can filter the dashboard based on **Room Type**.
+
+### 👤 Customer Type
+
+The dashboard includes:
+
+* 👥 **Existing**
+* 🆕 **New**
+
+These filters allow users to compare different customer groups and explore booking patterns interactively.
+
+---
+
+# ✨ Dashboard Features
+
+## 📊 Executive KPI Overview
+
+Important hotel performance metrics are displayed prominently for quick analysis.
+
+## 💰 Revenue Analysis
+
+Analyze realized and total revenue performance.
+
+## 📅 Booking Trend Analysis
+
+Explore how bookings change across different months.
+
+## 📌 Booking Status Analysis
+
+Compare confirmed, cancelled, and pending reservations.
+
+## 👥 Customer Demographic Analysis
+
+Analyze bookings based on customer age and gender.
+
+## 🏨 Hotel Performance
+
+Compare realized revenue across different hotel names.
+
+## 🌎 Geographic Analysis
+
+Analyze total bookings across different cities.
+
+## 🎛️ Interactive Filters
+
+Explore the dashboard dynamically using Room Type and Customer Type filters.
 
 ---
 
@@ -176,184 +255,269 @@ This project was developed using:
 🔍 Data Analysis
 📊 Business Intelligence
 🎨 Dashboard Design
+📌 Interactive Data Filtering
 ```
 
 ---
 
 # 🧠 Skills Demonstrated
 
-This project demonstrates practical knowledge of several important Data Analytics concepts.
+This project demonstrates practical knowledge of several important **Data Analytics and Business Intelligence** concepts.
 
 ### 📊 Data Visualization
 
-Presenting complex information through charts, KPIs, and interactive visual elements.
+Converting raw hotel data into interactive charts and visual representations.
 
-### 🔍 Data Analysis
+### 🔍 Exploratory Data Analysis
 
-Analyzing sales and profit data to discover meaningful patterns.
+Exploring booking, revenue, demographic, and geographical patterns.
 
-### 📈 Business Intelligence
+### 💰 KPI Analysis
 
-Using Power BI to convert data into useful business information.
+Using key performance indicators to summarize business performance.
 
-### 🎨 Dashboard Development
+### 📈 Trend Analysis
 
-Designing an interactive dashboard that presents multiple business dimensions in one place.
+Analyzing booking activity across different months.
 
-### 🔄 Interactive Filtering
+### 👥 Customer Analytics
 
-Using filters to dynamically explore data based on different categories, shipping modes, and dates.
+Understanding booking behavior through age, gender, and customer type.
 
-### 💡 Insight Generation
+### 🏨 Hotel Performance Analysis
 
-Converting visualized data into meaningful observations that can support business decisions.
+Comparing revenue generated by different hotels.
+
+### 🌎 Geographical Analysis
+
+Analyzing booking distribution across cities.
+
+### 🎛️ Interactive Reporting
+
+Using Power BI filters to dynamically explore different dimensions of the data.
 
 ---
 
-# 🔥 Key Insights
+# 🔥 Key Dashboard Highlights
 
-Based on the information displayed in the dashboard:
+The dashboard provides several important performance indicators:
 
-🥇 **West** has the highest regional sales at **0.73M**.
+💰 **Realized Revenue — 85.78bn**
 
-🥈 **East** follows with **0.68M**.
+💵 **Total Revenue — 250bn**
 
-📊 **Central** contributes **0.50M**.
+📅 **Total Bookings — 10K**
 
-📉 **South** contributes **0.39M**.
+🛏️ **Room Type Count — 105K**
 
-💰 Overall **Total Sales = 2.30M**.
+📊 **Booking Status Analysis — Confirmed, Cancelled & Pending**
 
-💵 Overall **Total Profit = 286.40K**.
+📅 **Monthly Booking Analysis — January to December**
 
-🏆 **Anna Andreadi** has the highest displayed sales contribution at **0.73M**.
+👥 **Customer Age & Gender Analysis**
 
-🗺️ California and New York are among the major state-level profit contributors shown in the dashboard.
+🏨 **Revenue by Hotel Name**
+
+🌎 **Bookings by City**
+
+🎛️ **Room Type & Customer Type Filters**
+
+All of these components are brought together into one interactive Power BI dashboard.
 
 ---
 
 # 🎯 Project Objective
 
-The main objective of this project is to create an **interactive sales reporting solution** that simplifies business data analysis.
+The primary objective of this project is to develop an **Executive Hotel Performance Dashboard** that provides a comprehensive overview of hotel business performance.
 
-The dashboard allows users to move from:
+The dashboard aims to answer questions such as:
 
-**Raw Data 📑 → Visualizations 📊 → Insights 💡 → Better Decisions 🚀**
+❓ How much revenue is being generated?
 
-Rather than manually examining large datasets, users can quickly understand important business metrics through interactive visualizations.
+❓ How many bookings are being received?
+
+❓ How are bookings distributed by status?
+
+❓ Which months have higher booking activity?
+
+❓ How does customer age and gender relate to bookings?
+
+❓ Which hotels generate higher realized revenue?
+
+❓ Which cities have significant booking activity?
+
+❓ How do new and existing customers differ?
+
+By bringing all these questions into a single dashboard, Power BI makes the analysis faster, more interactive, and more visually engaging.
 
 ---
 
-# 💼 Real-World Applications
+# 💼 Real-World Business Applications
 
-A dashboard like this can be useful for:
+This type of dashboard can be extremely useful for the hospitality industry.
 
-🏢 **Business Management**
-📊 **Sales Analytics**
-💰 **Financial Analysis**
-📦 **Operations Management**
-📈 **Performance Tracking**
-👨‍💼 **Sales Management**
-🎯 **Strategic Decision Making**
+### 🏨 Hotel Management
 
-Organizations can use similar dashboards to monitor performance and identify areas that require attention.
+Monitor overall hotel performance and revenue.
+
+### 💰 Revenue Management
+
+Understand revenue patterns and identify opportunities for optimization.
+
+### 📢 Marketing Teams
+
+Use customer demographics and booking trends to develop targeted campaigns.
+
+### 👥 Customer Management
+
+Analyze new versus existing customers.
+
+### 📊 Business Analysts
+
+Explore trends, patterns, and performance metrics.
+
+### 🌎 Expansion Planning
+
+Use city-level booking information to identify potential markets.
+
+### 👨‍💼 Executive Decision Making
+
+Provide management with a quick overview of business performance.
 
 ---
 
 # 🚀 Future Enhancements
 
-This dashboard can be further improved by adding:
+This dashboard can be further enhanced by adding advanced analytical features such as:
 
-🔮 Sales Forecasting
-📅 Monthly & Yearly Sales Trends
-📈 Year-over-Year Growth
-💵 Profit Margin Analysis
-🏆 Top & Bottom Performing Products
-👥 Customer Segmentation
-🗺️ Interactive Geographical Maps
-📊 Advanced KPI Cards
-🔍 Drill-Through Reports
-📈 Advanced DAX Measures
-📦 Detailed Product Performance
-🚚 Advanced Shipping Analysis
+🔮 **Revenue Forecasting**
 
-These additions could transform the current dashboard into a more advanced **end-to-end Business Intelligence solution.**
+📈 **Booking Forecasting**
+
+📅 **Year-over-Year Performance**
+
+📊 **Monthly Revenue Trends**
+
+💰 **Average Revenue per Booking**
+
+🛏️ **Occupancy Rate Analysis**
+
+❌ **Cancellation Rate Analysis**
+
+👥 **Customer Lifetime Value**
+
+🌎 **Interactive Geographical Maps**
+
+🏨 **Hotel Ranking System**
+
+💳 **Revenue per Room**
+
+📈 **Advanced DAX Measures**
+
+🔍 **Drill-Through Analysis**
+
+🎯 **Dynamic KPI Cards**
+
+🤖 **Predictive Analytics**
+
+These improvements could turn the current dashboard into a more advanced **Hotel Business Intelligence and Revenue Management System.**
 
 ---
 
 # 📚 Learning Outcomes
 
-Through this project, I gained practical experience in:
+Working on this project helped strengthen my understanding of:
 
 ✔️ Microsoft Power BI
 ✔️ Data Visualization
 ✔️ Business Intelligence
-✔️ Dashboard Design
-✔️ Sales Analytics
-✔️ Profit Analysis
+✔️ Dashboard Development
+✔️ Hotel Analytics
+✔️ Revenue Analysis
+✔️ Booking Analysis
+✔️ Customer Analytics
+✔️ Geographic Analysis
 ✔️ KPI Development
-✔️ Interactive Filters
-✔️ Data Interpretation
-✔️ Business Decision-Making
+✔️ Interactive Filtering
+✔️ Data-Driven Decision Making
 
-One of the most important takeaways from this project was understanding how **good visualization can make complex data much easier to understand.** 📊✨
+The project demonstrates how raw data can be transformed into a meaningful visual story using modern Business Intelligence tools.
 
 ---
 
 # 📂 Project Structure
 
-📁 Sales-Dashboard
+📁 Hotel-Performance-Dashboard
 │
-├── 📊 Sales_Dashboard.pdf
+├── 📊 Hotel_Dashboard.pdf
 ├── 📄 README.md
 
 ---
 
-# ▶️ How to Run the Project
+# ▶️ How to Use This Project
 
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/Sales-Dashboard.git
+git clone https://github.com/your-username/Hotel-Performance-Dashboard.git
+
 ```
 
-### 2️⃣ Open Power BI
+### 4️⃣ Explore the Dashboard
 
-Install **Microsoft Power BI Desktop** if it is not already installed.
+Interact with:
 
+🏨 Hotel visualizations
+📅 Monthly booking trends
+👥 Customer demographics
+🌎 City analysis
+🎛️ Room Type filter
+👤 Customer Type filter
+📊 Booking Status analysis
+
+### 5️⃣ Generate Insights
+
+Use the interactive dashboard to explore different aspects of hotel performance.
+
+---
 
 # ⭐ Project Highlights
 
-```text
-📊 Interactive Power BI Dashboard
-💰 2.30M Total Sales
-💵 286.40K Total Profit
-🌎 Regional Sales Analysis
-🗺️ State-wise Profit Analysis
-👤 Sales by Person
-🏷️ Category Analysis
-🚚 Shipping Mode Filter
-📅 Ship Date Filter
-💡 Business Intelligence
-🚀 Data-Driven Insights
+🏨 Executive Hotel Performance Dashboard
+📊 Built with Microsoft Power BI
+💰 85.78bn Realized Revenue
+💵 250bn Total Revenue
+📅 10K Total Bookings
+🛏️ 105K Room Type Count
+📊 Booking Status Analysis
+📅 Monthly Booking Trends
+👥 Customer Age & Gender Analysis
+🏨 Revenue by Hotel
+🌎 Bookings by City
+🎛️ Interactive Filters
+💡 Business Intelligence Insights
+🚀 Data-Driven Decision Making
+```
 
 ---
 
 # 🤝 Feedback & Contributions
 
-I’m always open to suggestions, feedback, and ideas for improving this project! 💙
+I’m always open to feedback, suggestions, and ideas for improving this project! 💙
 
-If you have an idea for:
+If you have suggestions for:
 
-📊 A new visualization
-📈 A new KPI
-🔍 A new analytical feature
-🎨 A dashboard improvement
-💡 A new business insight
+📊 New visualizations
+📈 Additional KPIs
+🏨 Hotel analytics
+💰 Revenue metrics
+👥 Customer insights
+🌎 Geographical analysis
+🤖 Predictive features
 
-feel free to contribute or share your feedback.
+feel free to share your ideas.
 
-If you find this project useful, don't forget to:
+If you find this project interesting, don't forget to:
 
 ⭐ **Star the repository**
 🍴 **Fork the project**
@@ -364,37 +528,40 @@ If you find this project useful, don't forget to:
 
 # 👩‍💻 Author
 
-## SURAJ THAKUR
+## Suraj Thakur
 
 🎯 **Aspiring Data Analyst | Power BI | Data Visualization | Business Intelligence**
 
-I’m passionate about working with data, creating meaningful visualizations, and transforming raw information into insights that can support better decision-making.
+I’m passionate about working with data, creating interactive dashboards, discovering meaningful patterns, and transforming raw information into insights that can support smarter business decisions. 📊💡
 
-This project is a part of my learning journey in **Data Analytics and Business Intelligence**, where I’m continuously building practical projects and improving my technical skills. 📊🚀
+This project represents part of my journey toward developing practical skills in **Data Analytics, Business Intelligence, and Data Visualization.**
 
 ---
 
 # 💙 Thank You!
 
-Thank you for visiting this project! 🙌
+Thank you for visiting my **Executive Hotel Performance Dashboard**! 🙌
 
-I hope this dashboard demonstrates how **Power BI can turn raw business data into clear, interactive, and actionable insights.**
+This project demonstrates how **Power BI can transform complex hotel booking and revenue data into an interactive business intelligence solution.**
 
-### 🚀 Keep Learning.
+### 📊 Analyze Data.
 
-### 📊 Keep Analyzing.
+### 💡 Discover Insights.
 
-### 💡 Keep Building.
+### 🚀 Make Better Decisions.
 
-### 🔥 Keep Growing.
-
-> **"Don't just collect data — turn it into decisions."** 📊💡🚀
+> **"Great decisions start with great insights."** 📊💡🔥
 
 ---
 
 ## ⭐ If You Like This Project
 
-**Don't forget to ⭐ Star this repository!**
+If you found this project useful or interesting:
 
-Your support motivates me to keep learning, experimenting, and building more exciting Data Analytics projects. 💙📊🔥
+⭐ **Star this repository**
+🍴 **Fork it**
+📢 **Share it**
+💬 **Give your feedback**
+
+Every bit of support motivates me to continue learning, building, and creating more exciting **Data Analytics & Power BI projects!** 🚀📊🔥
 
