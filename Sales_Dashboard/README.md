@@ -238,9 +238,9 @@ This project helped me gain practical experience in using Power BI to create a c
 # 📂 Project Structure
 
 📁 Sales-Dashboard
-│
-├── 📊 Sales_dashboard.pdf
 ├── 📄 README.md
+├── 📊 Sales_dashboard.pdf
+
 ```
 
 > ⚠️ File names may vary depending on the files included in the repository.
