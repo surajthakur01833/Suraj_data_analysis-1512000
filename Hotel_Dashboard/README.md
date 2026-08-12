@@ -481,21 +481,11 @@ Use the interactive dashboard to explore different aspects of hotel performance.
 
 ---
 
-# ⭐ Project Highlights
+## 👩‍💻 Author
+# **Suraj Thakur**
 
-🏨 Executive Hotel Performance Dashboard
-📊 Built with Microsoft Power BI
-💰 85.78bn Realized Revenue
-💵 250bn Total Revenue
-📅 10K Total Bookings
-🛏️ 105K Room Type Count
-📊 Booking Status Analysis
-📅 Monthly Booking Trends
-👥 Customer Age & Gender Analysis
-🏨 Revenue by Hotel
-🌎 Bookings by City
-🎛️ Interactive Filters
-💡 Business Intelligence Insights
-🚀 Data-Driven Decision Making
+🎯 Aspiring Data Analyst | Power BI | Data Visualization | Business Intelligence
 
-```
+I’m passionate about working with data, creating interactive dashboards, discovering meaningful patterns, and transforming raw information into insights that can support smarter business decisions. 📊💡
+
+This project represents part of my journey toward developing practical skills in Data Analytics, Business Intelligence, and Data Visualization.
