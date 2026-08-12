@@ -33,3 +33,23 @@ This project aims to:
 * Enable data-driven decision making
 * Identify trends and improvement areas
 * Enhance business performance 🚀
+
+## 🚀 Business Impact & Insights
+Beyond visualization, this dashboard is designed to deliver real-world business value:
+
+* 📈 Helps management track revenue growth and seasonal patterns
+* 🏨 Identifies top-performing hotels and cities for better investment decisions
+* 📊 Provides clarity on customer booking behavior and cancellation trends
+* 🎯 Supports targeted marketing strategies using customer segmentation
+* ⏳ Saves time by replacing manual reports with automated visual analytics
+* 🔍 Enables quick filtering and deep analysis using interactive slicers
+
+## 💡 Key Learnings
+
+While building this project, the following skills were strengthened:
+
+* 📊 Creating interactive dashboards in Power BI
+* 🧠 Writing efficient DAX formulas for calculations
+* 🧹 Performing data cleaning and transformation
+* 🎨 Designing user-friendly and visually appealing layouts
+* 🔎 Extracting actionable insights from raw datasets
